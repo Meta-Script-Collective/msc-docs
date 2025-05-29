@@ -1,11 +1,15 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "willow",
   "name": "MSC Docs",
   "colors": {
     "primary": "#7D5AC4",
     "light": "#7D5AC4",
     "dark": "#7D5AC4"
+  },
+  "appearance": {
+    "default": "dark",
+    "strict": true
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -37,7 +41,7 @@
         {
           "anchor": "Discord",
           "href": "https://discord.gg/msc-fivem",
-          "icon": "circle-user"
+          "icon": "discord"
         }
       ]
     }
@@ -58,5 +62,8 @@
       "label": "Discord",
       "href": "https://discord.gg/msc-fivem"
     }
+  },
+  "icons": {
+    "library": "fontawesome"
   }
 }
