@@ -14,11 +14,9 @@
         "tab": "เริ่มต้นใช้งาน",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "เอกสารคู่มือ",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
             ]
           }
         ]
