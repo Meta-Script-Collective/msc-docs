@@ -1,6 +1,7 @@
 # MSC Documentation
 
 ดาวน์โหลดไฟล์ด้วยวิธีหรือขั้นตอนที่ชอบ แนะนำให้ทำโดยการ Clone จาก Git หรือ Github CLI แต่ถ้าหากมี Github Desktop แนะนำให้ Clone โดยใช้ Github Desktop
+ให้ Clone จาก Branch **999s** เท่านั้น
 
 ### Development
 
