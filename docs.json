@@ -30,11 +30,12 @@
                 "group": "msc.animals-raise",
                 "icon": "code",
                 "pages": [
-                  "resources/msc.animals-raise/config.default.lua",
-                  "resources/msc.animals-raise/config.feeds.lua",
-                  "resources/msc.animals-raise/config.framework.lua",
-                  "resources/msc.animals-raise/config.lists.lua",
-                  "resources/msc.animals-raise/config.notify.lua"
+                  "resources/msc.animals-raise/installation",
+                  "resources/msc.animals-raise/config.default",
+                  "resources/msc.animals-raise/config.feeds",
+                  "resources/msc.animals-raise/config.framework",
+                  "resources/msc.animals-raise/config.lists",
+                  "resources/msc.animals-raise/config.notify"
                 ]
               }
             ]
