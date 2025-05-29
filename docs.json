@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "MSC Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#7D5AC4",
+    "light": "#7D5AC4",
+    "dark": "#7D5AC4"
   },
   "favicon": "/favicon.svg",
   "navigation": {
