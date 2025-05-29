@@ -1,22 +1,16 @@
-# Mintlify Starter Kit
+# MSC Documentation
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
-
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+ดาวน์โหลดไฟล์ด้วยวิธีหรือขั้นตอนที่ชอบ แนะนำให้ทำโดยการ Clone จาก Git หรือ Github CLI แต่ถ้าหากมี Github Desktop แนะนำให้ Clone โดยใช้ Github Desktop
 
 ### Development
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+ดาวน์โหลด [Mintlify CLI](https://www.npmjs.com/package/mintlify) โดยใช้คำสั่งข้างล่าง
 
 ```
 npm i -g mintlify
 ```
 
-Run the following command at the root of your documentation (where docs.json is)
+ให้ทำการ `cd` ไปที่ Project Path แล้วทำการรันคำสั่งข้างล่างนี้
 
 ```
 mintlify dev
@@ -24,7 +18,7 @@ mintlify dev
 
 ### Publishing Changes
 
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
+เมื่อต้องการเปลี่ยนแปลงข้อมูลให้ทำการ Push, Pull Request
 
 #### Troubleshooting
 
