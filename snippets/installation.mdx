@@ -21,7 +21,7 @@ export const HowToDownload = ({ resource, requirements }) => {
 
             <Steps>
                 <Step title="Download Resource">
-                    ให้คุณทำการดาวน์โหลดไฟล์ Script จาก [เว็บไซต์](https://msc-fivem.shop) ของเราหลังจากที่ได้ชำระเงินแล้วซื้อสินค้าเสร็จสิ้น
+                    ให้คุณทำการดาวน์โหลดไฟล์ Script จาก <a href="https://msc-fivem.shop" target="_blank">เว็บไซต์</a> ของเราหลังจากที่ได้ชำระเงินแล้วซื้อสินค้าเสร็จสิ้น
                 </Step>
 
                 <Step title="Move To Your Server Resources Folder">
@@ -29,7 +29,7 @@ export const HowToDownload = ({ resource, requirements }) => {
                 </Step>
 
                 <Step title="Add Resource To Start When Server Is Starting Up">
-                    เมื่อคุณนำไฟล์ลงที่เซิฟเวอร์สำเร็จให้ไปที่ไฟล์ `server.cfg` และเพิ่ม Code ดังนี้
+                    เมื่อคุณนำไฟล์ลงที่เซิฟเวอร์สำเร็จให้ไปที่ไฟล์ <code>server.cfg</code> และเพิ่ม Code ดังนี้
 
                     <CodeBlock language="lua" filename="server.cfg">
                         {`ensure ${resource}`}
