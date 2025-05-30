@@ -1,0 +1,54 @@
+---
+title: "เริ่มต้นใช้งาน"
+description: "คู่มือสำหรับการเริ่มต้นใช้งานสคริปต์"
+sidebarTitle: "เริ่มต้นใช้งาน"
+icon: "book-open"
+---
+
+## Features
+
+<Card title="General Features">
+    - อัพเดตการโอนเเบบ Real time เมื่อมีการโอนให้ผู้เล่นฝั่งตรงข้าม
+    - สามารถตั้งค่าอนิเมชั่นได้
+    - สามารถตั้งรูปโปรไฟล์เป็น discord เเละ steam ได้
+    - ระบบถอนเงินด่วนสามารถเพิ่มได้ไม่จํากัด เเละสามารถปิดเปิดฟังชั่นได้
+    - มีระบบโอนเงินเเละหักค่าธรรมเนียม
+    - blips เเผนที่สามารถตั้งค่าได้
+    - สามารถใส่หลอดโหลดได้
+    - Logs Webhook สามารถ Custom ได้ เเละมี Logs Webhook ในตัว
+    - Custom Function เมื่อเปิด UI ได้
+    - เก็บข้อมูล History เข้าออกเกม ไม่หาย restart server ไม่หาย
+    - Resmon เมื่อใช้งาน 0.00 - 0.01
+</Card>
+
+<Card title="Security Features">
+    - ปลอดภัยป้องกันการเสกเงิน TriggerServerEvent
+    - ป้องกันเปิดธนาคาร บนรถ
+    - ป้องกันเปิดธนาคารตอนเสียชีวิต (กรณีเปิด UI ค้างไว้เเล้วเสียชีวิต UI จะปิดเอง)
+</Card>
+
+<Note>Open Source: code.css, code.html</Note>
+
+## Where to Setting?
+
+<Columns cols={2}>
+    <Card title="Settings.default.lua" icon="code">
+        สำหรับการตั้งค่าเบื้องต้นเช่น การเปิด Debugger, ตั้งค่าปุ่มเปิด UI, ตั้งค่าการดึงรูปโปรไฟล์, การตั้งค่าเมนูบน UI ต่าง ๆ เช่น Quick Transfer เป็นต้น
+    </Card>
+
+    <Card title="Settings.functions.client.lua" icon="code">
+        สำหรับการตั้งค่าระบบต่าง ๆ ในส่วนของผู้เล่น เช่นปรับแต่ง Progress Bar, Animations, Sound Fx
+    </Card>
+
+    <Card title="Settings.functions.server.lua" icon="code">
+        สำหรับการตั้งค่าระบบต่าง ๆ ในส่วนของเซิฟเวอร์ เช่นการลบเงินเพิ่มเงินจากผู้เล่น และการโอนเงิน
+    </Card>
+
+    <Card title="Settings.logs.lua" icon="code">
+        สำหรับการตั้งค่าระบบ Logging สำหรับการตรวจสอบข้อมูลในภายหลัง (ค่าเริ่มต้น: Discord Webhook)
+    </Card>
+
+    <Card title="Settings.notify.lua" icon="code">
+        สำหรับการตั้งค่าแจ้งเตือนต่าง ๆ เช่นการเลือกไฟล์เสียงแจ้งเตือนเมื่อ Interact UI, การแสดง Help Text และจัดการข้อความแจ้งเตือน
+    </Card>
+</Columns>
