@@ -1,7 +1,19 @@
-### Download Resource
+<Steps>
+    <Step title="Download Resource">
+        ให้คุณทำการดาวน์โหลดไฟล์ Script จาก [เว็บไซต์](https://msc-fivem.shop) ของเราหลังจากที่ได้ชำระเงินแล้วซื้อสินค้าเสร็จสิ้น
+    </Step>
 
-ให้คุณทำการดาวน์โหลดไฟล์ Script จาก [เว็บไซต์](https://msc-fivem.shop) ของเราหลังจากที่ได้ชำระเงินแล้วซื้อสินค้าเสร็จสิ้น
+    <Step title="Move To Your Server Resources Folder">
+        ให้ทำการแตกไฟล์แล้วนำโฟลเดอร์ <code>{resource}</code> ไปวางไว้ภายในโฟลเดอร์ <code>resources/{resource}</code>
+    </Step>
 
-### Move To Your Server Resources Folder
+    <Step title="Add Resource To Start When Server Is Starting Up">
+        เมื่อคุณนำไฟล์ลงที่เซิฟเวอร์สำเร็จให้ไปที่ไฟล์ `server.cfg` และเพิ่ม Code ดังนี้
 
-ให้ทำการแตกไฟล์แล้วนำโฟลเดอร์ {resource} ไปวางไว้ภายในโฟลเดอร์ your-server-resources/{resource}
+        <CodeBlock language="lua" filename="server.cfg">
+            {`ensure ${resource}`}
+        </CodeBlock>
+    </Step>
+</Steps>
+
+<Note>เมื่อเซิฟเวอร์ทำงานแล้วให้ตรวจสอบ Server Console ว่าสคริปต์ได้ทำงานหรือยัง และตรวจสอบ License ถูกต้องหรือไม่</Note>
