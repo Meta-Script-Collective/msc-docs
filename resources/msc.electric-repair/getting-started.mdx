@@ -1,0 +1,63 @@
+---
+title: "เริ่มต้นใช้งาน"
+description: "คู่มือสำหรับการเริ่มต้นใช้งานสคริปต์"
+sidebarTitle: "เริ่มต้นใช้งาน"
+icon: "book-open"
+---
+
+## Features
+
+<Card title="General Features">
+    - มีระบบซ่อมด่วน! ลูกค้าสามารถตั้งไอเท็มสําหรับการซ่อมด่วนได้ไม่จํากัด
+    - มีระบบเเย่งซ่อมไฟ กรณีที่คนเเรกซ่อมเเล้วผู้เล่นเสียชีวิตคนถัดไปที่ซ่อมจะได้รับรางวัลซ่อมสําเร็จทันที ตามลําดับคิว
+    - สามารถ cancel การซ่อมได้
+    - ซ่อมไฟนี้ มีจุดพิเศษสําหรับผู้เล่น สามารถตั้งเรทการออกได้ จุดพิเศษสามารถตั้งไอเท็มในการซ่อมได้ เเละสามารถตั้งไอเท็มในการรับได้ พิเศษกว่าจุดทั่วไป!
+    - หาจุด coords ง่าย มีโหมด Dev Command สําหรับการหาจุด Coords บริเวณใกล้เคียง
+    - สามารถกําหนด โหมด Dev Command สามารถกําหนด Prop ในการหาจุด Coords ได้ เพื่อให้ง่ายต่อการเซ็ตตําเเหน่ง
+    - เมื่อมีการกําหนด Prop ที่ Config เเล้ว โหมด Dev สามารถพิมพ์ Command เพื่อหาจุด Coords Prop ที่อยู่บนคอนฟิกได้ทั้งหมด (ง่ายต่อการเซ็ตจุด ขึ้นบน F8 เเละกดคัดลอกได้เลย !)
+    - มี Export เเละ Event ในส่วนของ Blackout
+    - มีฟังชั่นสําหรับการ Custom Effect
+    - สามารถเปิดปิดโหมด Blackout ได้
+    - กําหนด Max locations ที่จะ Spawn ได้
+    - มีฟังชั่นสําหรับมินิเกม หรือ succeed เเละ failed !
+    - สามารถตั้งเวลาออโต้ Timer ไฟดับได้ไม่จํากัด
+    - มี UI โชว์บอกรายละเอียดจํานวนจุด ที่ชัดเจน รองรับทุกหน้าจอ ผู้เล่นเปิดปิด UI ได้
+</Card>
+
+<Card title="Security Features">
+    - ป้องกันการเสก TriggerServerEvent
+    - ป้องกันการเเอดไอเท็มหรือซ่อมระยะที่ไกลเกิน
+    - ป้องกันเวลาในการซ่อมเร็ว
+</Card>
+
+## Where to Setting?
+
+<Columns cols={2}>
+    <Card title="config.developer.lua" icon="code">
+        สำหรับการตั้งค่าระบบเพื่อช่วยในการแก้ไข (Debugger)
+    </Card>
+
+    <Card title="config.locations.lua" icon="code">
+        สำหรับการตั้งค่าตำแหน่งในการซ่อมไฟ และสามารถปรับแต่ง Exports ได้จากที่นี่เลย
+    </Card>
+
+    <Card title="config.notify.lua" icon="code">
+        สำหรับการตั้งค่าข้อความแจ้งเตือนต่าง ๆ และปรับแต่งการเลือกใช้ฟังก์ชั่นในการแจ้งเตือน
+    </Card>
+
+    <Card title="config.rewards.lua" icon="code">
+        สำหรับการตั้งค่าของรางวัลในแต่ละรูปแบบเช่น ซ่อมไฟปกติ และซ่อมไฟจุดพิเศษ
+    </Card>
+
+    <Card title="config.timers.lua" icon="code">
+        สำหรับการตั้งค่าเวลาในการ Random จุดซ่อมไฟ
+    </Card>
+
+    <Card title="manually/functions.client.lua" icon="code">
+        สำหรับการทำ Override Function ส่วนของ Client
+    </Card>
+
+    <Card title="manually/functions.server.lua" icon="code">
+        สำหรับการทำ Override Function ส่วนของ Server
+    </Card>
+</Columns>

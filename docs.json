@@ -31,11 +31,31 @@
                 "icon": "code",
                 "pages": [
                   "resources/msc.animals-raise/installation",
-                  "resources/msc.animals-raise/config.default",
-                  "resources/msc.animals-raise/config.feeds",
-                  "resources/msc.animals-raise/config.framework",
-                  "resources/msc.animals-raise/config.lists",
-                  "resources/msc.animals-raise/config.notify"
+                  "resources/msc.animals-raise/getting-started"
+                ]
+              },
+              {
+                "group": "msc.banking",
+                "icon": "code",
+                "pages": [
+                  "resources/msc.banking/installation",
+                  "resources/msc.banking/getting-started"
+                ]
+              },
+              {
+                "group": "msc.change-weapons",
+                "icon": "code",
+                "pages": [
+                  "resources/msc.change-weapons/installation",
+                  "resources/msc.change-weapons/getting-started"
+                ]
+              },
+              {
+                "group": "msc.electric-repair",
+                "icon": "code",
+                "pages": [
+                  "resources/msc.electric-repair/installation",
+                  "resources/msc.electric-repair/getting-started"
                 ]
               }
             ]
