@@ -8,7 +8,7 @@
 npm i -g mintlify
 ```
 
-ให้ทำการ `cd` ไปที่ Project Path แล้วทำการรันคำสั่งข้างล่างนี้
+ให้ทำการ `cd` เเละไปที่ Project Path แล้วทำการรันคำสั่งข้างล่างนี้
 
 ```
 mintlify dev

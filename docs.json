@@ -35,19 +35,27 @@
                 ]
               },
               {
-                "group": "msc.banking",
-                "icon": "code",
-                "pages": [
-                  "resources/msc.banking/installation",
-                  "resources/msc.banking/getting-started"
-                ]
-              },
-              {
                 "group": "msc.change-weapons",
                 "icon": "code",
                 "pages": [
                   "resources/msc.change-weapons/installation",
                   "resources/msc.change-weapons/getting-started"
+                ]
+              },
+              {
+                "group": "msc.economy-arena",
+                "icon": "code",
+                "pages": [
+                  "resources/msc.economy-arena/installation",
+                  "resources/msc.economy-arena/getting-started"
+                ]
+              },
+              {
+                "group": "msc.banking",
+                "icon": "code",
+                "pages": [
+                  "resources/msc.banking/installation",
+                  "resources/msc.banking/getting-started"
                 ]
               },
               {
