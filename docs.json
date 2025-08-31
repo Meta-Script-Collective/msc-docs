@@ -1,0 +1,106 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "willow",
+  "name": "MSC Docs",
+  "colors": {
+    "primary": "#7D5AC4",
+    "light": "#7D5AC4",
+    "dark": "#7D5AC4"
+  },
+  "appearance": {
+    "default": "dark",
+    "strict": true
+  },
+  "favicon": "/favicon.png",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "เริ่มต้นใช้งาน",
+        "groups": [
+          {
+            "group": "ยินดีต้อนรับ",
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "group": "เอกสารคู่มือ",
+            "pages": [
+              {
+                "group": "msc.animals-raise",
+                "icon": "code",
+                "pages": [
+                  "resources/msc.animals-raise/installation",
+                  "resources/msc.animals-raise/getting-started"
+                ]
+              },
+              {
+                "group": "msc.banking",
+                "icon": "code",
+                "pages": [
+                  "resources/msc.banking/installation",
+                  "resources/msc.banking/getting-started"
+                ]
+              },
+              {
+                "group": "msc.change-weapons",
+                "icon": "code",
+                "pages": [
+                  "resources/msc.change-weapons/installation",
+                  "resources/msc.change-weapons/getting-started"
+                ]
+              },
+              {
+                "group": "msc.electric-repair",
+                "icon": "code",
+                "pages": [
+                  "resources/msc.electric-repair/installation",
+                  "resources/msc.electric-repair/getting-started"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "href": "https://docs.msc-fivem.shop/",
+          "icon": "book-open-cover"
+        },
+        {
+          "anchor": "Store",
+          "href": "https://msc-fivem.shop/",
+          "icon": "store"
+        },
+        {
+          "anchor": "Discord",
+          "href": "https://discord.gg/msc-fivem",
+          "icon": "discord"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/msc_fivem_2.png",
+    "dark": "/logo/msc_fivem_2.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Store",
+        "href": "https://msc-fivem.shop/"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Discord",
+      "href": "https://discord.gg/msc-fivem"
+    }
+  },
+  "icons": {
+    "library": "fontawesome"
+  }
+}
